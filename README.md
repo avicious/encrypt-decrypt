@@ -1,4 +1,4 @@
-# 🔐 Encrypt & Decrypt
+# Encrypt & Decrypt
 
 A sleek, lightweight React component for encrypting and decrypting text using the **AES (Advanced Encryption Standard)** algorithm. This tool features a toggleable interface, real-time error handling, and a "copy-to-clipboard" feedback system.
 
