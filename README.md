@@ -1,6 +1,7 @@
 # 🔐 Encrypt & Decrypt
 
 A sleek, lightweight React component for encrypting and decrypting text using the **AES (Advanced Encryption Standard)** algorithm. This tool features a toggleable interface, real-time error handling, and a "copy-to-clipboard" feedback system.
+
 ---
 ## ✨ Features
 
@@ -11,6 +12,7 @@ A sleek, lightweight React component for encrypting and decrypting text using th
   - **State-aware buttons:** Highlights the active mode (Encrypt/Decrypt).
   - **Visual feedback:** Icon toggles from `Copy` to `CopyCheck` upon success.
   - **Automatic Resets:** Error messages and results clear when switching modes.
+
 ---
 ## 🚀 How It Works
 
@@ -33,6 +35,7 @@ When you click **DECRYPT**:
 - **Reverse Transformation:** `CryptoJS.AES.decrypt` attempts to strip the encryption layers using the secret key.
 - **Encoding:** The resulting "words" (bytes) are converted back into a readable string using `Utf8` encoding.
 - **Error Handling:** If the key is wrong or the data is corrupted, the `try-catch` block triggers a "Decryption failed" message instead of crashing the app.
+
 ---
 ## 🛠️ Installation & Setup
 
