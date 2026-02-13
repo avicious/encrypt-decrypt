@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+.container {
+  width: 100vw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eff2f5;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #0d315d;
+  border: none;
+  padding: 0.5rem 3.5rem;
+  background-color: #bcd7f8;
+  cursor: pointer;
+  transition: all ease-in 0.1s;
+}
+
+.btn-encrypt {
+  border-radius: 0.2rem 0 0 0.2rem;
+}
+
+.btn-decrypt {
+  border-radius: 0 0.2rem 0.2rem 0;
+}
+
+.active {
+  color: #fff;
+  background-color: #207ae8;
+}
+
+.card {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+textarea {
+  min-height: 100px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #fff;
+  border: 2px solid #d2e4fa;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+}
+
+textarea::placeholder {
+  color: #a2a2a2;
+}
+
+.submit-btn {
+  border-radius: 0.2rem;
+  margin-top: 1rem;
+}
+
+.encrypt-btn {
+  color: #fff;
+  background-color: #207ae8;
+}
+
+.decrypt-btn {
+  color: #fff;
+  background-color: #e53471;
+}
+
+.error-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+.result-area {
+  width: 26rem;
+  margin-top: 2rem;
+  border: 2px dashed #bababa;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #a2a2a2;
+}
+
+.result-display {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  color: #2e2e2e;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.copy-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
